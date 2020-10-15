@@ -21,4 +21,4 @@ jobs:
       with:
         java-version: 11
     - name: Build with Maven
-      run: mvn -D package cobertura:cobertura --file pom.xml
+      run: mvn -D package --file pom.xml
